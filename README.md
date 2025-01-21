@@ -51,9 +51,7 @@ Siguiendo los pasos, puede tener un codigo QR como el siguiente:
 
 
 > [!IMPORTANT]
-
 > Los codigos QR generados se guardarán en un directorio llamado `QR_Codes` que, en el caso de que no exista, también 
 se va a crear
-
 > Si crea una imagen de codigo QR con el mismo nombre de una existente, será reemplazada por la nueva imagen creada.
 
