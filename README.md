@@ -3,8 +3,7 @@
 ## Resumen
 
 Es un generador de codigos QR que funciona por **consola**.
-Podrá guardar links, codigos de seguridad, contraseñas de red
-o cualquier tipo de información textual de su preferencia.
+Podrá guardar links, codigos de seguridad o cualquier tipo de información textual de su preferencia.
 
 ## Instalación previa
 ```
