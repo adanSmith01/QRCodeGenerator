@@ -3,9 +3,13 @@
 
 # QR Code Generator
 
+&nbsp;
+
 ## Summary
 This is a **console-based** QR code generator.
 You can save links, security codes or any type of textual information of your choice.
+
+&nbsp;
 
 ## Prerequisites
 - Python 3+ installed
@@ -14,11 +18,14 @@ You can save links, security codes or any type of textual information of your ch
 pip install -r requirements.txt
 ```
 
+&nbsp;
+
 ## How does it work?
 1. First, run the main.py file from the project directory:
 ```
 python main.py
 ```
+
 &nbsp;
 
 2. Enter the text information you want to store. For example: https://www.google.com/
@@ -59,9 +66,13 @@ Following these steps, you can generate a QR code like the following:
 
 # Generador de códigos QR
 
+&nbsp;
+
 ## Resumen
 Es un generador de codigos QR que funciona por **consola**.
 Podrá guardar links, codigos de seguridad o cualquier tipo de información textual de su preferencia.
+
+&nbsp;
 
 ## Requerimientos previos
 - Tener Python 3+ instalado
