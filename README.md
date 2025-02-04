@@ -1,5 +1,5 @@
 - [English](/README.md/#qr-code-generator)
-- [Spanish](/README.md/#generador-de-codigos-qr)
+- [Spanish](/README.md/#generador-de-códigos-qr)
 
 # QR Code Generator
 
