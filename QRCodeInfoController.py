@@ -17,7 +17,8 @@ IMAGE_NAME_ERROR_MESSAGE: str = "QR code image name: "
 IMAGE_LOGO_ERROR_MESSAGE: str = "Image not exist or not valid"
 
 class QRCodeInfoController():
-    
+    """A class for to manage the input data. """
+
     @staticmethod
     def __set_valid_text(input_message: str, error_message: str) -> str:
         while True:
