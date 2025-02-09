@@ -1,10 +1,20 @@
 from dataclasses import dataclass, field
-from PIL import Image
 from pathlib import Path
 
 
 @dataclass
 class QRCodeInfo():
+    """
+    Define the information for qr code.
+
+    Atributes:
+        __info (str): The information to store in the QR code.
+        __imageName (str): The name of the QR code image.
+        __fillColor (str): The fill color of the QR code.
+        __backColor (str): The back color of the QR code.
+        __logoPath (str): The path of the logo to be inserted in the QR code.
+        __imagePath (str): The path of the resulting image.
+    """
 
     default_values = {
         "info": "Text example", 
@@ -23,6 +33,7 @@ class QRCodeInfo():
 
 
     def __post_init__(self):
+        """Determines the values of the attributes definitely. """
 
         if not self.__info: self.__info = self.default_values['info']
         if not self.__imageName: self.__imageName = self.default_values['imageName']
@@ -39,6 +50,8 @@ class QRCodeInfo():
         self.__imagePath = qrCodesDir / f"{self.__imageName}.png"
     
     def get_info(self) -> dict[str, str]:
+        """Returns a dictionary with the necesary qr code information. """
+        
         return dict(
             info=self.__info,
             fillColor=self.__fillColor,
