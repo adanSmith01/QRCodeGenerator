@@ -7,7 +7,7 @@
 
 ## Summary
 This is a **console-based** QR code generator.
-You can save links, security codes or any type of textual information of your choice.
+You can save links and textual information.
 
 &nbsp;
 
@@ -70,7 +70,7 @@ Following these steps, you can generate a QR code like the following:
 
 ## Resumen
 Es un generador de codigos QR que funciona por **consola**.
-Podrá guardar links, codigos de seguridad o cualquier tipo de información textual de su preferencia.
+Podrá guardar links e información textual.
 
 &nbsp;
 
